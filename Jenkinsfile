@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('JPCDA')
+    DOCKERHUB_CREDENTIALS = credentials('JPCDA DockerHub')
     }
     stages { 
 
